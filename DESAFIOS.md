@@ -28,7 +28,7 @@ mais que 700kg para inspeção.
 
 -----------------------------------------------------
 
-# Desáfio 4: # 
+# Desáfio 4: 
 Foi pedido pelo marketing um relação de todos os empregados(employees) que sao casados
 ( married =casado) e são asalariados(salaried)
 
@@ -38,10 +38,46 @@ Foi pedido pelo marketing um relação de todos os empregados(employees) que sao
 
 -----------------------------------------------------
 
-# Desáfio 5:# 
+# Desáfio 5:
 
 Um usuario, chamado Peter Crabs esta devendo um pagamento,consiga o email dele para que possamos enviar uma cobranca voce vai ter que usar prson.person e depois a tabela person.emailaddress
 
 ***Resposta:***
 
 ![Exemplo de Imagem](Desafio5.png)
+
+-----------------------------------------------------
+
+# Desáfio 6:
+ Quantos produtos temos cadastrado no sistema que custam mais que 1500 dolares?
+
+![Exemplo de Imagem](Desafio6.png)
+
+-----------------------------------------------------
+
+# Desáfio 7:
+ Quantas pessoas temos com sobrenome que incia com a letra P?
+ 
+![Exemplo de Imagem](Desafio7.png)
+
+-----------------------------------------------------
+
+# Desáfio 8:
+
+EU PRECISO SABER QUANTAS PESSOAS TEM O MESMO MIDDLENAME E AGRUPAR AS MESMAS
+
+***Resposta:***
+
+![Exemplo de Imagem](Desafio8.png)
+
+-----------------------------------------------------
+# Desáfio 9:
+
+Eu quero saber qual foram as 10 vendas que no total tiveram os maiores valores
+de venda(line total) por produto do maior valor para o menor
+
+***Resposta:***
+
+![Exemplo de Imagem](Desafio9.png)
+
+-----------------------------------------------------

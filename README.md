@@ -168,3 +168,54 @@ O operador `NOT IN` é utilizado para filtrar resultados que **não** correspond
 SELECT coluna1, coluna2, ...
 FROM tabela
 WHERE coluna NOT IN (valor1, valor2, valor3, ...);
+```
+# Operador LIKE em SQL
+
+O operador `LIKE` é utilizado em uma consulta SQL para buscar padrões em uma coluna de texto. Ele permite que você encontre valores que correspondem a um padrão específico, usando caracteres curinga como `%` e `_`.
+
+## Sintaxe
+
+```sql
+SELECT coluna1, coluna2, ...
+FROM tabela
+WHERE coluna LIKE 'padrão';
+```
+
+***Exemplo:***
+```sql
+SELECT * 
+FROM Produtos
+WHERE Nome LIKE '%A';
+```
+```sql
+SELECT * 
+FROM Clientes
+WHERE Nome LIKE 'J____';
+```
+
+# Operadores Agregados em SQL
+
+Os operadores agregados são funções que realizam cálculos em um conjunto de valores e retornam um único valor. Eles são frequentemente usados com a cláusula `GROUP BY` para agrupar registros com valores semelhantes. Aqui estão os quatro operadores agregados mais comuns:
+
+- **MAX**: Retorna o valor máximo de uma coluna.
+- **MIN**: Retorna o valor mínimo de uma coluna.
+- **SUM**: Retorna a soma total de uma coluna.
+- **AVG**: Retorna a média de uma coluna.
+
+## Sintaxe
+
+```sql
+SELECT MAX(coluna), MIN(coluna), SUM(coluna), AVG(coluna)
+FROM tabela;
+```
+# Cláusula GROUP BY em SQL
+
+A cláusula `GROUP BY` é utilizada em SQL para agrupar registros que possuem valores idênticos em uma ou mais colunas. Geralmente é usada com funções agregadas, como `COUNT()`, `MAX()`, `MIN()`, `SUM()`, `AVG()`, para aplicar cálculos a cada grupo de dados.
+
+## Sintaxe
+
+```sql
+SELECT coluna1, função_agregada(coluna2)
+FROM tabela
+GROUP BY coluna1;
+```
